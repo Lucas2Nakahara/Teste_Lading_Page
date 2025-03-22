@@ -215,10 +215,12 @@ nav {
 }
 
 .discover_grid {
-    margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .discover_card {
@@ -227,11 +229,18 @@ nav {
 }
 
 .discover_card:nth-child(2) {
-    transform: translateY(5rem);
+    transform: translateY(2rem);
 }
 
 .discover_image {
     position: relative;
+}
+
+.discover_image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .discover_image::after {
@@ -563,6 +572,18 @@ nav {
     .contact_col:first-child {
         grid-area: 1/1/2/3;
         text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .discover_grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .discover_card:nth-child(2) {
+        transform: translateY(0);
     }
 }
 
