@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design de página de destino do site</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <div class="nav_bar">
+                <div class="nav_logo"><a href="#">Lucas.</a></div>
+                <ul class="nav_links">
+                    <li class="link"><a href="#home">Home</a></li>
+                    <li class="link"><a href="#about">Sobre Nós</a></li>
+                    <li class="link"><a href="#discover">Descobrir</a></li>
+                    <li class="link"><a href="#blog">Blog</a></li>
+                    <li class="link"><a href="#journals">Diárias</a></li>
+                    <li class="link"><a href="#gallery">Galeria</a></li>
+                    <li class="link search">
+                        <span><i class="ri-search-line"></i></span><!--Campo para buscas icones-->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="section_container header_container">
+            <h1>A nova maneira de planejar sua próxima aventura</h1>
+            <h4>Explore o mundo colorido</h4>
+            <button class="btn">
+                Explorar mais <i class="ri-arrow-right-line"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="section_container about_container">
+            <div class="about_content">
+                <h2 class="section_header">Sobre Nós</h2>
+                <p class="section_subheader">
+                    Nossa paixão é despertar o desejo de aventura em cada viajante, criando roteiros cuidadosamente planejados que unem emoção, adrenalina e cenários de tirar o fôlego. Com uma equipe de exploradores experientes, garantimos que cada jornada seja repleta de momentos inesquecíveis, conectando você às maravilhas do mundo. Prepare-se para viver experiências autênticas e extraordinárias — porque viajar não é apenas sobre conhecer novos lugares, mas sobre sentir a essência da exploração. 🚀🌍✨
+                </p>
+                <div class="about_flex">
+                    <div class="about_card">
+                        <h4>268</h4>
+                        <p>Viagens concluídas</p>
+                    </div>
+                    <div class="about_card">
+                        <h4>176</h4>
+                        <p>Guias turísticos</p>
+                    </div>
+                    <div class="about_card">
+                        <h4>153</h4>
+                        <p>Destinos</p>
+                    </div>
+                </div>
+                <button class="btn">
+                    Leia Mais <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+            <div class="about-image">
+                <img src="../css/imagens/about-us.avif" alt="about">
+            </div>
+        </div>
+    </section>
+
+    <section class="discover" id="discover">
+        <div class="section_container discover_container">
+            <h2 class="section_header">Descubra os lugares mais envolventes</h2>
+            <p class="section_subheader">
+                Vamos ver o mundo conosco, com você e sua família.
+            </p>
+            <div class="discover_grid">
+                <div class="discover_card">
+                    <div class="discover_image">
+                        <img src="../css/imagens/capa-post-taj-mahal-india.jpg" alt="discover">
+                    </div>
+                    <div class="discover_card_content">
+                        <h4>Noruega</h4>
+                        <p>Explore a natureza indomável da Noruega, onde imponentes montanhas se erguem majestosamente e a deslumbrante aurora boreal ilumina o céu em um espetáculo inesquecível. ❄️🏔️✨</p>
+                        <button class="discover_btn">
+                            Descubra Mais <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="discover_card">
+                    <div class="discover_image">
+                        <img src="../css/imagens/london-principal.jpg" alt="discover">
+                    </div>
+                    <div class="discover_card_content">
+                        <h4>Londres</h4>
+                        <p>De escaladas urbanas a passeios de bicicleta ao entardecer pelos icônicos parques reais, Londres é um convite aberto para os amantes da aventura explorarem cada oportunidade única que a cidade oferece. 🚴‍♂️🌆✨</p>
+                        <button class="discover_btn">
+                            Descubra Mais <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="discover_card">
+                    <div class="discover_image">
+                        <img src="../css/imagens/japan-inicial.jpg" alt="discover">
+                    </div>
+                    <div class="discover_card_content">
+                        <h4>Japão</h4>
+                        <p>Das desafiadoras escaladas no icônico Monte Fuji à imersão na tranquilidade de seus templos e jardins, o Japão combina aventura e riqueza cultural em experiências inesquecíveis. ⛩️🏔️✨</p>
+                        <button class="discover_btn">
+                            Descubra Mais <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs" id="blogs">
+        <div class="blogs_container">
+            <h2 class="section_header">Últimas notícias nos blogs</h2>
+            <p class="section_subheader">
+                Queremos ajudar você a viajar melhor!
+            </p>
+            <div class="blogs_card">
+                <img src="../css/imagens/image1-blogs.jpg" alt="blog">
+                <div class="blogs_content">
+                    10 erros que todo viajante do tempo comete e como evitá-los!
+                </div>
+            </div>
+            <div class="blogs_card">
+                <img src="../css/imagens/image2-blogs.jpg" alt="blog">
+                <div class="blogs_content">
+                    Como é realmente se mudar para um país cuja língua você não fala?
+                </div>
+            </div>
+            
+            <div class="blogs_card">
+                <img src="../css/imagens/image3-blogs.jpg" alt="blog">
+                <div class="blogs_content">
+                    Explorando os cantos tranquilos de Olso | Galope ao redor do mundo.
+                </div>
+            </div>
+
+            <div class="blogs_card">
+                <img src="../css/imagens/image4-blogs.jpg" alt="blog">
+                <div class="blogs_content">
+                    11 coisas que você precisa saber antes de visitar a Montanha Arco-Íris no Peru.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="journals" id="journals">
+        <div class="section_container journals_container">
+            <h2 class="section_header">Os diários de viagem</h2>
+                <p class="section_subheader">
+                    Um diário é o seu companheiro de jornada, onde você pode capturar cada nova descoberta e registrar as memórias inesquecíveis dos lugares que explora. ✍️🌍✨
+                </p>
+                <div class="journals_grid">
+                    <div class="journals_card">
+                        <img src="../css/imagens/16017015-railay-beach-krabi.webp" alt="journals">
+                        <div class="journals_content">
+                            <div class="journals_author">
+                                <img src="../css/imagens/pessoa1.jpg" alt="author">
+                                <p>Por Maria</p>
+                            </div>
+                            <h4>Como usar menos plástico quando você viaja</h4>
+                            <div class="journals_footer">
+                                <p>18 Abril de 2024</p>
+                                <span>
+                                    <a href="#"><i class="ri-share-fill"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="journals_card">
+                        <img src="../css/imagens/16017015-railay-beach-krabi.webp" alt="journals">
+                        <div class="journals_content">
+                            <div class="journals_author">
+                                <img src="../css/imagens/pessoa2.webp" alt="author">
+                                <p>Por Arthur</p>
+                            </div>
+                            <h4>As melhores viagens de carro de fim de semana saindo de Denver.</h4>
+                            <div class="journals_footer">
+                                <p>28 Abril de 2024</p>
+                                <span>
+                                    <a href="#"><i class="ri-share-fill"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="journals_card">
+                        <img src="../css/imagens/16017015-railay-beach-krabi.webp" alt="journals">
+                        <div class="journals_content">
+                            <div class="journals_author">
+                                <img src="../css/imagens/pessoa3.jpeg" alt="author">
+                                <p>Por Ana</p>
+                            </div>
+                            <h4>Dicas e truques para planejar sua próxima aventura.</h4>
+                            <div class="journals_footer">
+                                <p>19 Maio de 2024</p>
+                                <span>
+                                    <a href="#"><i class="ri-share-fill"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="journals_card">
+                        <img src="../css/imagens/16017015-railay-beach-krabi.webp" alt="journals">
+                        <div class="journals_content">
+                            <div class="journals_author">
+                                <img src="../css/imagens/pessoa4.webp" alt="author">
+                                <p>Por Jaco Fernandez</p>
+                            </div>
+                            <h4>Um guia para iniciantes em hotéis.</h4>
+                            <div class="journals_footer">
+                                <p>01 Junho de 2024</p>
+                                <span>
+                                    <a href="#"><i class="ri-share-fill"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="journals_card">
+                        <img src="../css/imagens/16017015-railay-beach-krabi.webp" alt="journals">
+                        <div class="journals_content">
+                            <div class="journals_author">
+                                <img src="../css/imagens/pessoa5.jpg" alt="author">
+                                <p>Por John</p>
+                            </div>
+                            <h4>17 dicas de viagem não convencionais que você precisa.</h4>
+                            <div class="journals_footer">
+                                <p>16 Junho de 2024</p>
+                                <span>
+                                    <a href="#"><i class="ri-share-fill"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="journals_card">
+                        <img src="../css/imagens/16017015-railay-beach-krabi.webp" alt="journals">
+                        <div class="journals_content">
+                            <div class="journals_author">
+                                <img src="../css/imagens/pessoa6.jpg" alt="author">
+                                <p>Por Alan</p>
+                            </div>
+                            <h4>Dicas de viagem que você gostaria de saber antes</h4>
+                            <div class="journals_footer">
+                                <p>01 Julho de 2024</p>
+                                <span>
+                                    <a href="#"><i class="ri-share-fill"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="journals_btn">
+                    <button class="btn">
+                        Ver todos os diários <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="section_container hero_container">
+            <p>Lucas</p>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="gallery_container">
+            <h2 class="section_header">Galeria de fotos</h2>
+            <p class="section_subheader">Se você ama viajar e busca paisagens de tirar o fôlego, prepare-se para conhecer os lugares mais incríveis do planeta. De praias paradisíacas a montanhas majestosas, cada destino tem uma beleza única esperando por você.</p>
+            <div class="gallery_grid">
+                <div class="gallery_card">
+                    <img src="../css/imagens/norway_northern_lights_hamnoyshutterstock_1504345343.webp" alt="gallery">
+                    <div class="gallery_content">
+                        <h4>Aurora Boreal</h4>
+                        <p>Noruega</p>
+                    </div>
+                </div>
+
+                <div class="gallery_card">
+                    <img src="../css/imagens/norway_northern_lights_hamnoyshutterstock_1504345343.webp" alt="gallery">
+                    <div class="gallery_content">
+                        <h4>Krabi</h4>
+                        <p>Tailândia</p>
+                    </div>
+                </div>
+
+                <div class="gallery_card">
+                    <img src="../css/imagens/norway_northern_lights_hamnoyshutterstock_1504345343.webp" alt="gallery">
+                    <div class="gallery_content">
+                        <h4>Bali</h4>
+                        <p>Indonésia</p>
+                    </div>
+                </div>
+
+                <div class="gallery_card">
+                    <img src="../css/imagens/norway_northern_lights_hamnoyshutterstock_1504345343.webp" alt="gallery">
+                    <div class="gallery_content">
+                        <h4>Tokio</h4>
+                        <p>Japão</p>
+                    </div>
+                </div>
+
+                <div class="gallery_card">
+                    <img src="../css/imagens/norway_northern_lights_hamnoyshutterstock_1504345343.webp" alt="gallery">
+                    <div class="gallery_content">
+                        <h4>Taj Mahal</h4>
+                        <p>Índia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="section_container contact_container">
+            <div class="contact_col">
+                <h4>Entre em contato com um pesquisador de viagens</h4>
+                <p>Nosso objetivo é sempre responder em até 24 horas.</p>
+            </div>
+            <div class="contact_col">
+                <div class="contact_card">
+                    <span><i class="ri-phone-line"></i></span>
+                    <h4>Contate-nos</h4>
+                    <h5>+55 44 9 9866-7380.</h5>
+                    <p>Estamos on-line agora</p>
+                </div>
+            </div>
+
+            <div class="contact_col">
+                <div class="contact_card">
+                    <span><i class="ri-mail-line"></i></span>
+                    <h4>Envie-nos uma consulta</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section class="footer">
+            <div class="section_container footer_container">
+                <h4>Lucas</h4> 
+                <div class="footer_socials">
+                    <span>
+                        <a href="https://github.com/Lucas2Nakahara"><i class="ri-github-fill"></i></a>
+                    </span>
+                    <span>
+                        <a href="https://www.instagram.com/"><i class="ri-instagram-line"></i></a>
+                    </span>
+                    <span>
+                        <a href="https://www.linkedin.com/in/lucas-nakahara-395b0624b/"><i class="ri-linkedin-box-fill"></i></a>
+                    </span>
+                    <span>
+                        <a href="https://web.whatsapp.com/"><i class="ri-whatsapp-line"></i></a>
+                    </span>
+                </div> <br>
+                <p>
+                    Muitas pessoas acreditam que experiências incríveis, riqueza e sucesso são privilégios limitados a poucos. Mas a verdade é que momentos inesquecíveis podem ser acessíveis a todos! Planejar uma viagem romântica sem gastar uma fortuna é totalmente possível  basta escolher destinos estratégicos, aproveitar ofertas e focar no que realmente importa: o tempo de qualidade a dois. <br> <br>
+                    Descubra como criar memórias inesquecíveis sem comprometer seu orçamento! 💕✈️
+                </p>
+
+                <ul class="footer_nav">
+                    <li class="footer_link"><a href="#home">Home</a></li>
+                    <li class="footer_link"><a href="#about">Sobre Nós</a></li>
+                    <li class="footer_link"><a href="#discover">Descobrir</a></li>
+                    <li class="footer_link"><a href="#blog">Blog</a></li>
+                    <li class="footer_link"><a href="#journals">Diárias</a></li>
+                    <li class="footer_link"><a href="#gallery">Galeria</a></li>
+                    <li class="footer_link"><a href="#contact">Contato</a></li>
+                </ul>
+
+            </div>
+            
+        </section>
+    </footer>
+
+    <script src="../jss/main.js"></script>
+</body>
+</html>
