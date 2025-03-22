@@ -293,11 +293,22 @@ nav {
 .blogs_grid {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 2rem;
+    justify-content: center;
 }
 
 .blogs_card {
     position: relative;
+    overflow: hidden; 
+    border-radius: 10px; 
+}
+
+.blogs_card img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+    display: block;
 }
 
 .blogs_card::after {
@@ -324,7 +335,7 @@ nav {
 .journals_grid {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
 
@@ -341,8 +352,10 @@ nav {
 }
 
 .journals_author img {
-    max-width: 30px;
-    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .journals_author p {
