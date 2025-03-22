@@ -50,14 +50,3 @@ ScrollReveal().reveal(".discover_card_content", {
     delay: 200,
 });
 
-// Blogs Container 
-ScrollReveal().reveal(".blogs_card", {
-    duration: 1000,
-    interval: 400,
-});
-
-//journals container 
-ScrollReveal().revela(".Journals_card", {
-    scrollRevealOption,
-    interval: 400,
-});
