@@ -40,12 +40,12 @@ ScrollReveal().reveal(".about_container .btn", {
 
 // Discover Container
 ScrollReveal().reveal(".discover_card", {
-    scrollRevealOption,
+    ...scrollRevealOption,
     interval: 500,
 });
 
 ScrollReveal().reveal(".discover_card_content", {
-    scrollRevealOption,
+    ...scrollRevealOption,
     interval: 500,
     delay: 200,
 });

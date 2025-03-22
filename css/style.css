@@ -204,7 +204,7 @@ nav {
 }
 
 .about_image img {
-    max-width: 450px;
+    max-width: 350px;
     margin: auto;
 }
 
@@ -224,7 +224,7 @@ nav {
 }
 
 .discover_card {
-    max-width: 320px;
+    max-width: 420px;
     margin: auto;
 }
 
@@ -247,7 +247,7 @@ nav {
     position: absolute;
     content: "";
     width: 100%;
-    height: 50%;
+    height: 100%;
     left: 0;
     bottom: 0;
     background-image: linear-gradient(to top, var(--prmeira-cor), transparent);
@@ -286,6 +286,7 @@ nav {
     background-color: var(--Segunda-cor);
 }
 
+/* Blogs */
 .blogs_container {
     padding: 5rem 0;
 }
@@ -293,15 +294,16 @@ nav {
 .blogs_grid {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    gap: 2rem;
-    justify-content: center;
+    grid-template-columns: repeat(4,1fr);
 }
 
 .blogs_card {
     position: relative;
-    overflow: hidden; 
-    border-radius: 10px; 
+}
+
+.blogs_card::after {
+    position: absolute;
+    
 }
 
 .blogs_card img {
